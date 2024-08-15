@@ -1,0 +1,67 @@
+.header {
+    width: 100%;
+}
+
+.img-header {
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.descuento-button {
+    position: absolute;
+    top: 300px;
+    right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.descuento-button h1 {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px;
+}
+
+.descuento-button strong {
+    color: brown;
+}
+
+.descuento-button button {
+    background: #D01418;
+    color: aliceblue;
+    padding: 10px 40px;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .descuento-button {
+        width: 300px;
+        position: absolute;
+        top: 100px;
+        left: 90px;
+        text-align: center; /* Centrar el contenido horizontalmente */
+    }
+
+    .descuento-button h1 {
+        font-size: 25px;
+        display: block; /* Cambia a block si quieres que el h1 ocupe todo el ancho disponible */
+        margin: 0; /* Elimina márgenes predeterminados */
+        padding: 0 10px; /* Añade un poco de padding si es necesario */
+        text-align: center; /* Centrar el texto dentro del h1 */
+    }
+
+    .descuento-button button {
+        padding: 10px 20px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,83 @@
+.section-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card-h2 {
+    text-align: center;
+    margin: 40px 20px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.16px;
+
+
+}
+
+.card {
+    background: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 20px; /* Añade padding interno a la tarjeta */
+    margin: 15px; /* Añade margen externo entre tarjetas */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra verticalmente el contenido dentro de la tarjeta */
+    flex-wrap: wrap;
+}
+
+.card img {
+    padding: 30px 60px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho de la tarjeta */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    width: 100%; /* Ajusta el ancho de la línea horizontal */
+
+}
+
+.envio-gratis {
+    color: #619D00;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.72px;
+
+
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 35%; /* Ajusta el ancho de las tarjetas */
+        padding: 15px; /* Reduce el padding interno */
+        margin: 10px auto; /* Reduce el margen y centra las tarjetas */
+        box-shadow: rgba(50, 50, 93, 0.15) 0px 20px 40px -10px inset,
+        rgba(0, 0, 0, 0.2) 0px 10px 20px -10px inset; /* Reduce el efecto de sombra */
+    }
+
+    .card img {
+        padding: 20px; /* Reduce el padding alrededor de la imagen */
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px,
+        rgba(0, 0, 0, 0.18) 0px 3px 3px; /* Ajusta la sombra de la imagen */
+        max-width: 100%; /* Asegura que la imagen ocupe el ancho disponible */
+    }
+
+    .card-h2 {
+        font-size: 1.5rem; /* Reduce el tamaño del texto */
+        margin-bottom: 15px; /* Reduce el margen inferior */
+    }
+
+    .footer-card {
+        margin-left: 10px; /* Reduce el margen izquierdo del footer */
+    }
+
+
+}

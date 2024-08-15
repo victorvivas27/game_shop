@@ -1,0 +1,40 @@
+.footer-contenedor{
+    height: 216px;
+    background: #222222;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+   align-items: center;
+}
+
+
+.footer-flex span {
+    color: #D01418;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29.3px;
+}
+
+.footer-flex strong {
+    color: #F3F3F3;
+}
+.footer-flex img{
+    margin-right: 10px;
+}
+.social-contenedor h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29.3px;
+    color: #F3F3F3;
+}
+.social{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.icono-x{
+width: 35px;
+}

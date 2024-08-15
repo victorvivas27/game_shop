@@ -1,0 +1,26 @@
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+.article-product {
+    position: relative;
+}
+
+.article-product img {
+    border-radius: 10px;
+}
+
+.article-h3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #F3F3F3;
+    margin: 30px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29.3px;
+}
